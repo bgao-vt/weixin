@@ -1,2 +1,13 @@
 <!--pages/key/key_09.wxml-->
-<text>pages/key/key_09.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">衙门口综合环境整治项目</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于衙门口地区。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总建筑规模189万平方米，用于改造的建筑规模约122万平方米，规划公共服务设施6万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>高端养老产业、文化创意产业、现代金融产业、高新技术产业、互联网+产业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E8%A1%99%E9%97%A8%E5%8F%A3%E7%BB%BC%E5%90%88%E7%8E%AF%E5%A2%83%E6%95%B4%E6%B2%BB%E9%A1%B9%E7%9B%AE.jpg"></image>
+  
+</view>

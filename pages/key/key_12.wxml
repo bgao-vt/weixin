@@ -1,2 +1,13 @@
 <!--pages/key/key_12.wxml-->
-<text>pages/key/key_12.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">绿地环球文化金融城</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>紧邻长安街西延线，距古城地铁站仅200米。 </text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总建筑面积约23万平方米，包括4栋办公楼及配套商业，高度120米，中心配置绿地产业发展中心及独有的8+N智慧办公模块。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>高端商务、现代金融为主的总部型企业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E7%BB%BF%E5%9C%B0%E7%8E%AF%E7%90%83%E6%96%87%E5%8C%96%E9%87%91%E8%9E%8D%E5%9F%8E.jpg"></image>
+  
+</view>

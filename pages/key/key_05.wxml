@@ -1,2 +1,13 @@
 <!--pages/key/key_05.wxml-->
-<text>pages/key/key_05.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">刘娘府A2部分地块</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于刘娘府地区。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>用地面积1.61公顷，建设用地面积1.61公顷，规划建筑面积4.03万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>商业金融。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E5%88%98%E5%A8%98%E5%BA%9CA2%E9%83%A8%E5%88%86%E5%9C%B0%E5%9D%97.jpg"></image>
+  
+</view>

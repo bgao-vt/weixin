@@ -1,2 +1,6 @@
 <!--pages/article/article_01.wxml-->
+<import src="../template/template.wxml"/>
+
 <text>pages/article/article_01.wxml</text>
+
+<template is="toolbar" data="{{isCollect}}"/>

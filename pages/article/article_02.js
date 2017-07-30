@@ -1,18 +1,28 @@
 // pages/article/article_02.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    id: 'article_02',
+    isCollect: false, //是否被收藏
+    news: { title: '中关村虚拟现实产业园在石景山启动（附规划和政策）', image: ['../../images/logo.jpg', '../../images/bg.jpg','../../images/logo.jpg'], numImage: 3, url: '../../pages/article/article_02' }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-  
+  onLoad: function () {
+    var id = this.data.id;
+    var pageData = wx.getStorageSync('pageData') || []
+    for (var i = 0; i < pageData.length; i++) {
+      if (pageData[i].id == id) {
+        this.setData({ isCollect: true });
+        break;
+      }
+    }
   },
 
   /**
@@ -62,5 +72,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  /**
+  * 页面收藏功能
+  */
+  collectOrNot: function () {
+    var that = this;
+    util.collectOrNot(that);
   }
 })

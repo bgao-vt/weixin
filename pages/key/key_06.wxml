@@ -1,2 +1,13 @@
 <!--pages/key/key_06.wxml-->
-<text>pages/key/key_06.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">西井地块</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于西井地区。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总用地面积12.15公顷，建设用地面积9.42公顷，规划建筑面积31.28万平方米，其中:科研建筑面积19.20万平方米，商业建筑面积12.08万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>教育科研、商业金融。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E8%A5%BF%E4%BA%95%E5%9C%B0%E5%9D%97.jpg"></image>
+  
+</view>

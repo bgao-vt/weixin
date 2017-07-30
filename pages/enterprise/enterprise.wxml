@@ -1,18 +1,31 @@
 <!--pages/enterprise/enterprise.wxml-->
-<view class="main-page">
-  <view class="vertical-space"></view>
+<!-- <view class="main-page"> -->
+  <!-- <view class="vertical-space"></view> -->
 
-  <view class="category-block">
-    <text class="category-title">高新技术产业</text>
-    <view class="list-section">
-      <image wx:for="{{enterpriseSet_01}}" mode="scaleToFill" class="list-item" style="width:{{item.width}}rpx" src="{{item.image}}"/>
-    </view>
-  </view>
-  <view class="category-block">
-    <text class="category-title">旅游休闲产业</text>
-    <view class="list-section">
-      <image wx:for="{{enterpriseSet_02}}" mode="scaleToFill" class="list-item" style="width:{{item.width}}rpx" src="{{item.image}}"/>
-    </view>
+  <view bindtouchstart="touchstart" bindtouchend="touchend">
+
+    <scroll-view scroll-y="true" scroll-into-view="{{toView}}" style="height:{{windowHeight}}px">
+      <view class="category-block" wx:for="{{enterprise}}" wx:for-item="i">
+        <view class="category-title">
+          <view style="width:10rpx; height:28rpx; background:#78D1E9; margin-right:40rpx"></view>
+          <text id="{{i.id}}" class="category-title">{{i.title}}</text>
+        </view>
+        <view class="list-section">
+          <image wx:for="{{i.brands}}" bindtap="toEnterprisePageDetail" wx:for-item="j" data-pid="{{i.pid}}" data-cid="{{j.id}}" mode="scaleToFill" class="{{j.isClicked? 'list-item-clicked' : 'list-item'}}" style="width:{{j.width}}rpx" src="{{j.image}}"/>
+        </view>
+        
+        
+        <!-- <view class="line"></view>
+        <view id="{{item.id}}" class="category-title">{{item.title}}</view>
+        <view class="line"></view>
+        <view class="brand_block">
+          <view class="color_view" wx:for="{{item.brands}}" bindtap="click">
+            <image src="{{item.image}}" mode="scaleToFill" class="list-item" style="width:{{item.width}}rpx"></image>
+          </view>
+        </view> -->
+      </view>
+    </scroll-view>
+
   </view>
 
-</view>
+<!-- </view> -->

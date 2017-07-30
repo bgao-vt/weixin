@@ -1,17 +1,28 @@
 // pages/special/special_03.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    id: 'special_03',
+    isCollect: false, //是否被收藏
+    news: { title: '保险产业园', image: ['../../images/bg.jpg'], numImage: 1, url: '../../pages/special/special_03' }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function () {
+    var id = this.data.id;
+    var pageData = wx.getStorageSync('pageData') || []
+    for (var i = 0; i < pageData.length; i++) {
+      if (pageData[i].id == id) {
+        this.setData({ isCollect: true });
+        break;
+      }
+    }
   
   },
 
@@ -62,5 +73,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  /**
+   * 页面收藏功能
+   */
+  collectOrNot: function () {
+    var that = this;
+    util.collectOrNot(that);
   }
 })

@@ -1,2 +1,13 @@
 <!--pages/key/key_13.wxml-->
-<text>pages/key/key_13.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">泰然国际大厦</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>紧邻长安街西延线，距古城地铁站仅200米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总建筑面积约2万平方米，共13层，其中1-3层为商业；4层以上为办公，标准层面积约1400平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>侨创空间、侨创学院。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E6%B3%B0%E7%84%B6%E5%9B%BD%E9%99%85%E5%A4%A7%E5%8E%A6.jpg"></image>
+  
+</view>

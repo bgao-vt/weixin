@@ -1,2 +1,13 @@
 <!--pages/key/key_20.wxml-->
-<text>pages/key/key_20.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">点石商务公园</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于中关村石景山园。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>建筑面积约16.3万平方米，其中地上建筑面积为12.4万平方米，包括5A甲级写字楼、创智型独栋写字楼及精品配套型商业。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>虚拟现实技术研究、成果转化及行业应用等高新技术产业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E7%82%B9%E7%9F%B3%E5%95%86%E5%8A%A1%E5%85%AC%E5%9B%AD.jpg"></image>
+  
+</view>

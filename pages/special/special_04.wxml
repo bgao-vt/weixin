@@ -1,2 +1,35 @@
 <!--pages/special/special_04.wxml-->
-<text>pages/special/special_04.wxml</text>
+<import src="../template/template.wxml"/>
+
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">新首钢高端产业综合服务区</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text">“新首钢高端产业综合服务区”由首钢钢铁主流程停产后的老工业区开发建设定位命名而来,位于长安街沿线最西端, 距离天安门仅18公里,占地面积8.63平方公里，是北京市城区内唯一可大规模、联片开发的区域;与周边的二通园区、首特钢园区以及丰台、门头沟部分区域在内的协作发展区一起,总占地面积22.3平方公里。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E6%96%B0%E9%A6%96%E9%92%A2%E5%8C%BA%E4%BD%8D.jpg"></image>
+  <text class="article-fulltext-imgtitle">新首钢区位</text>
+
+  <text class="article-fulltext-text">园区周边交通发达，十分便捷，通过阜石路、莲石路贯通五、六环路与北京城市快速路体系相连；通过地铁1号线、S1线、规划中的R1线、M11线与北京中心城区紧密联系，长安街西延长线也将贯穿园区。园区环境优美，景致独特，紧邻北京母亲河永定河，背靠西山山脉，拥有石景山、群明湖、秀池、高炉等工业和自然景观，已被列为北京市绿色生态示范区。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E6%96%B0%E9%A6%96%E9%92%A2%E9%AB%98%E7%AB%AF%E4%BA%A7%E4%B8%9A%E7%BB%BC%E5%90%88%E6%9C%8D%E5%8A%A1%E5%8C%BA.jpg"></image>
+  <text class="article-fulltext-imgtitle">新首钢高端产业综合服务区</text>
+
+  <text class="article-fulltext-text">园区地处中关村“一区十六园”中，拥有全球最强的创新要素，自然环境、历史积淀、文化魅力、时代要求无与伦比。为加快园区开发建设，北京市政府成立新首钢高端产业综合服务区发展建设领导小组。2012年北京市政府批复《新首钢高端产业综合服务区控制性详细规划》。在政策上同时享受国家城区老工业区搬迁改造试点、国家服务业综合改革试点区、国家可持续发展试验区、中关村国家自主创新示范区等诸多优惠政策。在中央城市工作会议精神的引领下，坚持“控制总量、优化结构、绿色优先、置换开发、分步实施、重点突破”的原则，将园区打造成为践行新发展理念、引领转型升级的生动实践，成为落实首都城市战略定位、统筹经济发展与城市发展的典范，成为贯彻京津冀协同发展战略、辐射带动区域发展的重要引擎，成为国际一流和谐宜居之都的示范区、首都创新驱动的承载平台及最有活力的区域之一。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E9%A6%96%E9%92%A2%E4%B8%80%E8%A7%92.jpg"></image>
+  <text class="article-fulltext-imgtitle">首钢一角</text>
+
+  <text class="article-fulltext-text">目前，园区开发建设进入全面实施阶段。由中科院院士领衔的城市风貌研究成果达到国际先进水平。2016年5月冬奥组委正式入驻，极大地提升了园区品质；2017年将完成冬奥组委办公区所有改造建设，建成国家速滑、冰球等训练场馆，开工建设冬奥大跳台；将成为奥林匹克运动城市发展的典范以及世界遗产再利用、工业区复兴的典范。基础设施建设全面启动，16个项目纳入北京市政府绿色审批通道；长安街西延线首钢段具备通车条件，已建成的晾水池东路成为园区亮丽的风景线，首钢工业遗址公园、石景山景观公园等一批工业遗存利用和生态环境提升项目进展顺利。“高精尖”产业项目不断积聚，世界侨商创新中心等项目落户；首钢正气候发展项目被正式纳入C40正气候项目发展计划中，成为中国第一个全球第19个正气候项目。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E5%86%AC%E5%A5%A5%E7%BB%84%E5%A7%94%E9%A9%BB%E5%9C%B0.jpg"></image>
+  <text class="article-fulltext-imgtitle">冬奥组委驻地</text>
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E5%86%AC%E5%A5%A5%E8%AE%AD%E7%BB%83%E5%9C%BA%E9%A6%86.jpg"></image>
+  <text class="article-fulltext-imgtitle">冬奥训练场馆</text>
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/special_xsg/%E4%B8%96%E7%95%8C%E4%BE%A8%E5%95%86%E5%88%9B%E6%96%B0%E4%B8%AD%E5%BF%83.jpg"></image>
+  <text class="article-fulltext-imgtitle">世界侨商创新中心</text>
+
+</view>
+
+<template is="toolbar" data="{{isCollect}}"/>

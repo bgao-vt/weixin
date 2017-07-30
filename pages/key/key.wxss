@@ -9,6 +9,11 @@
   margin-bottom: -10rpx;
   border-top-left-radius: 10rpx;
   border-top-right-radius: 10rpx;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: thin;
+  border-color: darkgrey;
 }
 .key-project-text{
   width: 80%;
@@ -23,4 +28,7 @@
   padding-right: 5%;
   border-bottom-left-radius: 10rpx;
   border-bottom-right-radius: 10rpx;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgrey;
 }

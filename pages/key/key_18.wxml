@@ -1,2 +1,13 @@
 <!--pages/key/key_18.wxml-->
-<text>pages/key/key_18.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">首钢体育大厦</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于西五环与阜石路交界处。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总建筑面积7.5万平方米，其中地上建筑面积5.2万平方米，地下建筑面积2.3万平方米，包括多功能路演厅、公共会议室、开放办公区、体育商务写字楼等。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>体育产业上下游企业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E9%A6%96%E9%92%A2%E4%BD%93%E8%82%B2%E5%A4%A7%E5%8E%A6.jpg"></image>
+  
+</view>

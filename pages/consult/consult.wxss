@@ -10,8 +10,18 @@
 }
 .consult-title{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+.consult-title-text{
+  width: 78%;
+  color: black; 
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .consult-text-preview{
   display: -webkit-box;

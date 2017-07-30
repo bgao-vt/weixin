@@ -1,2 +1,27 @@
 <!--pages/favorite/favorite.wxml-->
-<text>pages/favorite/favorite.wxml</text>
+<view class="main-page">
+
+  <view class="noData" style="{{hasData ? 'display:none' : ''}}">
+    <text>您目前还没有收藏任何文章</text>
+  </view>
+
+  <view wx:for="{{pageData}}" bindtap="toPageDetail" data-id="{{item.id}}" class="article-block">
+    <text class="article-title">{{item.title}}</text>
+    <view wx:if="{{item.numImage == 1}}" class="article-image-section">
+      <view wx:for="{{item.images}}" wx:for-item="items">
+        <image mode="scaleToFill" class="article-image-one" src="{{items}}"/>
+      </view>
+    </view>
+    <view wx:elif="{{item.numImage == 2}}" class="article-image-section"> 
+      <view wx:for="{{item.images}}" wx:for-item="items">
+        <image mode="scaleToFill" class="article-image-two" src="{{items}}"/>
+      </view>
+    </view>
+    <view wx:elif="{{item.numImage == 3}}" class="article-image-section"> 
+      <view wx:for="{{item.images}}" wx:for-item="items">
+        <image mode="scaleToFill" class="article-image-three" src="{{items}}"/>
+      </view>
+    </view>   
+  </view>
+
+</view>

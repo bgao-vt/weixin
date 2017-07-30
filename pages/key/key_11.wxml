@@ -1,2 +1,13 @@
 <!--pages/key/key_11.wxml-->
-<text>pages/key/key_11.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">金融街（长安）中心</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>紧邻长安街西延线，距古城地铁站仅200米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>获得绿建三星级及美国Leed金级双认证，高度120米，总建筑面积约37万平方米，包含5A级写字楼、五星级酒店、多功能空间以及地上地下的精品商业街，业态丰富。</text>
+  <text class="article-fulltext-text"><text class="text-bold">发展定位：</text>高端商务、现代金融为主的总部型企业，中美创新中心、侨创学院、侨创空间等。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E9%87%91%E8%9E%8D%E8%A1%97%E9%95%BF%E5%AE%89%E4%B8%AD%E5%BF%83.jpg"></image>
+  
+</view>

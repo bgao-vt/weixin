@@ -6,7 +6,7 @@
     "pages/outline/overview",
     "pages/outline/policy",
     "pages/enterprise/enterprise",
-    "pages/enterprise/enterprise_01",
+    "pages/enterprise/enterprise_02",
     "pages/plan/plan",
     "pages/plan/map",
     "pages/special/special_01",
@@ -45,25 +45,26 @@
     "pages/article/article_02",
     "pages/user/user",
     "pages/favorite/favorite",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/template/template"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#78D1E9",
-    "navigationBarTitleText": "Ai石景山投资小助手",
+    "navigationBarTitleText": "Ai石景山投资服务小助手",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "grey",
+    "color": "#333333",
     "selectedColor": "#78D1E9",
-    "backgroundColor": "white",
+    "backgroundColor": "#ffffff",
     "borderStyle": "grey",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "投资导向",
-        "iconPath": "images/footer_guide.png",
-        "selectedIconPath": "images/footer_guide_pressed.png"
+        "iconPath": "images/footer_index.png",
+        "selectedIconPath": "images/footer_index_pressed.png"
       },
       {
         "pagePath": "pages/news/news",
@@ -74,8 +75,8 @@
       {
         "pagePath": "pages/user/user",
         "text": "我",
-        "iconPath": "images/footer_me.png",
-        "selectedIconPath": "images/footer_me_pressed.png"
+        "iconPath": "images/footer_user.png",
+        "selectedIconPath": "images/footer_user_pressed.png"
       }
     ],
     "position": "bottom"

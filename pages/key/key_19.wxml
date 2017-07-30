@@ -1,2 +1,13 @@
 <!--pages/key/key_19.wxml-->
-<text>pages/key/key_19.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">古城创业大厦</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于石景山区古城西街。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总建筑面积7.75万平方米，其中地上建筑面积5.02万平方米，地下建筑面积2.73万平方米，由A、B、C三栋建筑组成。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>高新技术、智能制造等产业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E5%8F%A4%E5%9F%8E%E5%88%9B%E4%B8%9A%E5%A4%A7%E5%8E%A6.png"></image>
+  
+</view>

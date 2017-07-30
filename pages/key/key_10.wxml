@@ -1,2 +1,13 @@
 <!--pages/key/key_10.wxml-->
-<text>pages/key/key_10.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">模式口历史文化保护区修缮改造工程</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于法海寺森林公园南侧。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>用地面积约35.6公顷，是北京市公布的第二批历史文化保护区。地区有国家级文保单位法海寺、承恩寺,市级文保单位田义墓、第四纪冰川擦痕陈列馆。</text>
+  <text class="article-fulltext-text"><text class="text-bold">发展定位：</text>延续传统风貌、引入多元功能，打造“京西古道第一街”。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E6%A8%A1%E5%BC%8F%E5%8F%A3%E6%96%87%E4%BF%9D%E5%8C%BA%E4%BF%AE%E7%BC%AE%E6%94%B9%E9%80%A0%E5%B7%A5%E7%A8%8B.jpg"></image>
+  
+</view>

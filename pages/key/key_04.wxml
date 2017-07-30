@@ -1,2 +1,13 @@
 <!--pages/key/key_04.wxml-->
-<text>pages/key/key_04.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">银河商务区L地块</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于鲁谷地区。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>总用地面积1.97公顷，建设用地面积1.69公顷，规划建筑面积8.79万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>商业金融。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E9%93%B6%E6%B2%B3%E5%95%86%E5%8A%A1%E5%8C%BAL%E5%9C%B0%E5%9D%97.jpg"></image>
+  
+</view>

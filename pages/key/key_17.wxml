@@ -1,2 +1,13 @@
 <!--pages/key/key_17.wxml-->
-<text>pages/key/key_17.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">首钢•脱硫车间改造项目</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于新首钢高端产业综合服务区。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>项目占地面积约3.57万平方米，地上建筑面积9790平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">发展定位：</text>展览展示、会议接待。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E9%A6%96%E9%92%A2%E8%84%B1%E7%A1%AB%E8%BD%A6%E9%97%B4%E6%94%B9%E9%80%A0%E9%A1%B9%E7%9B%AE.png"></image>
+  
+</view>

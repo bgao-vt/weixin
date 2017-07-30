@@ -4,8 +4,8 @@
 
   <view wx:for="{{articleData}}" class="consult-block">
     <view class="consult-title">
-      <text style="color:black; font-weight:bold">{{item.title}}</text>
-      <text bindtap="toConsultPageDetail" data-id="{{item.id}}" class="detail-navigator">查看详情 >></text>
+      <text class="consult-title-text">{{item.title}}</text>
+      <text bindtap="toConsultPageDetail" data-id="{{item.id}}" class="text-lightblue">查看详情</text>
     </view>
     <text class="consult-text-preview">{{item.text}}</text>
   </view>

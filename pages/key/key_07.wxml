@@ -1,2 +1,13 @@
 <!--pages/key/key_07.wxml-->
-<text>pages/key/key_07.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">创业创新园</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于中关村石景山园。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>两园占地面积2.83公顷，规划建筑规模约9.89万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">发展定位：</text>创业创新园。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E5%88%9B%E4%B8%9A%E5%88%9B%E6%96%B0%E5%9B%AD.png"></image>
+  
+</view>

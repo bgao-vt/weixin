@@ -1,2 +1,13 @@
 <!--pages/key/key_14.wxml-->
-<text>pages/key/key_14.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">泰禾长安中心</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于银河商务区，北侧距长安街西延线300米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>项目占地面积2.1公顷，总建筑面积为18万平方米，其中规划超5A国际甲级写字楼建筑面积约6.6万平方米，奢尚名品商街约近3万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>现代金融、信息科技企业总部以及文化创意、商务服务等高端产业。 </text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E6%B3%B0%E7%A6%BE%E9%95%BF%E5%AE%89%E4%B8%AD%E5%BF%83.jpg"></image>
+  
+</view>

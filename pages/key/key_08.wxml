@@ -1,2 +1,13 @@
 <!--pages/key/key_08.wxml-->
-<text>pages/key/key_08.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">集体土地再利用项目</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目介绍：</text>集体经济系统共拥有土地资源1138.24公顷，可改造提升建筑面积不低于10万平方米。</text>
+  <text class="article-fulltext-text"><text class="text-bold">合作方式：</text>探索社会资本与集体经济合作开发模式，加快集体土地开发建设。</text>
+  <text class="article-fulltext-text"><text class="text-bold">产业定位：</text>结合各集体经济组织资源禀赋和发展实际，引进符合区域五大主导产业的优质企业。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E9%9B%86%E4%BD%93%E5%9C%9F%E5%9C%B0%E5%86%8D%E5%88%A9%E7%94%A8%E9%A1%B9%E7%9B%AE.png"></image>
+  
+</view>

@@ -1,2 +1,13 @@
 <!--pages/key/key_15.wxml-->
-<text>pages/key/key_15.wxml</text>
+<view class="article-fulltext-page">
+
+  <text class="article-fulltext-title">启迪•香山</text>
+  <text class="article-fulltext-date">2017-06-25</text>
+
+  <text class="article-fulltext-text"><text class="text-bold">项目位置：</text>位于香山南路，北京射击场西侧。</text>
+  <text class="article-fulltext-text"><text class="text-bold">建设指标：</text>建筑面积15.6万平方米，由云总部、慧空间、创新坊、悦街区四部分构成，建有5A级写字楼、开放式商业街、创新沙龙坊、酒店式公寓。</text>
+  <text class="article-fulltext-text"><text class="text-bold">发展定位：</text>“启迪之星”加速器、侨创空间。</text>
+
+  <image mode="widthFix" class="article-fulltext-image" src="http://shijingshan-1254017066.costj.myqcloud.com/article_images/key/%E5%90%AF%E8%BF%AA%E9%A6%99%E5%B1%B1.jpg"></image>
+  
+</view>
